@@ -64,7 +64,7 @@ Transaction Data
 The system transforms transaction information into a risk assessment and provides supporting indicators so that the result is easier to understand.
 
 # 🧠 System Architecture
-
+''' text
 ┌─────────────────────────────────────────┐
 │            TRANSACTION INPUT            │
 │                                         │
@@ -105,7 +105,7 @@ The system transforms transaction information into a risk assessment and provide
 │ Risk Score • Indicators • Analytics     │
 │ Feature Importance • Insights           │
 └─────────────────────────────────────────┘
-
+''' text
 # ✨ Key Features
 
 | Feature | Description |
