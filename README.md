@@ -63,49 +63,30 @@ Transaction Data
 
 The system transforms transaction information into a risk assessment and provides supporting indicators so that the result is easier to understand.
 
-# 🧠 System Architecture
-''' text
-┌─────────────────────────────────────────┐
-│            TRANSACTION INPUT            │
-│                                         │
-│ Amount • Time • Account • Device        │
-│ Location • Failed Attempts • Velocity   │
-└────────────────────┬────────────────────┘
-                     │
-                     ▼
-┌─────────────────────────────────────────┐
-│          FEATURE PROCESSING              │
-│                                         │
-│ Transaction & Behavioral Signals        │
-└────────────────────┬────────────────────┘
-                     │
-                     ▼
-┌─────────────────────────────────────────┐
-│          RANDOM FOREST MODEL             │
-│                                         │
-│          Machine Learning Engine        │
-└────────────────────┬────────────────────┘
-                     │
-                     ▼
-┌─────────────────────────────────────────┐
-│            RISK PROBABILITY              │
-└────────────────────┬────────────────────┘
-                     │
-                     ▼
-┌─────────────────────────────────────────┐
-│          RISK CLASSIFICATION             │
-│                                         │
-│     🟢 LOW   🟠 MEDIUM   🔴 HIGH        │
-└────────────────────┬────────────────────┘
-                     │
-                     ▼
-┌─────────────────────────────────────────┐
-│          EXPLAINABLE DASHBOARD           │
-│                                         │
-│ Risk Score • Indicators • Analytics     │
-│ Feature Importance • Insights           │
-└─────────────────────────────────────────┘
-''' text
+
+## 🧠 System Architecture
+
+RiskGuard AI follows a structured pipeline that transforms transaction data into an explainable risk assessment.
+
+```mermaid
+flowchart TD
+    A["💳 Transaction Input"] --> B["⚙️ Feature Processing"]
+    B --> C["🤖 Random Forest<br/>Risk Engine"]
+    C --> D["📊 Risk Score"]
+    D --> E["🎯 Risk Classification"]
+    E --> F["📈 Explainable Dashboard"]
+
+    F --> G["📊 Analytics & Insights"]
+    C --> H["🧠 Feature Importance"]
+
+    style A rx:10,ry:10
+    style B rx:10,ry:10
+    style C rx:10,ry:10
+    style D rx:10,ry:10
+    style E rx:10,ry:10
+    style F rx:10,ry:10
+    style G rx:10,ry:10
+    style H rx:10,ry:10
 # ✨ Key Features
 
 | Feature | Description |
