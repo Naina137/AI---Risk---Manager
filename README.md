@@ -8,11 +8,20 @@
 
 <br>
 
-[🚀 Live Demo](https://ai---risk---manager-cpxhbr4uexjwz9bkdfo3rh.streamlit.app) • [💻 GitHub](https://github.com/Naina137/AI---Risk---Manager) • [🔗 LinkedIn](https://www.linkedin.com/in/naina-kumari-06373132b/)
+[![🚀 Live Demo](https://img.shields.io/badge/%F0%9F%9A%80%20LIVE%20DEMO-STREAMLIT-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://ai---risk---manager-cpxhbr4uexjwz9bkdfo3rh.streamlit.app)
+[![💻 Source Code](https://img.shields.io/badge/%F0%9F%92%BB%20SOURCE%20CODE-GITHUB-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Naina137/AI---Risk---Manager)
+[![🔗 LinkedIn](https://img.shields.io/badge/%F0%9F%94%97%20LINKEDIN-NAINA%20KUMARI-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/naina-kumari-06373132b/)
 
 <br>
 
-`Python` · `Scikit-learn` · `Streamlit` · `Plotly` · `Pandas` · `NumPy` · `Joblib`
+[![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
+[![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-013243?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org/)
+[![Scikit-learn](https://img.shields.io/badge/Scikit--learn-Machine%20Learning-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
+[![Plotly](https://img.shields.io/badge/Plotly-Visualization-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)](https://plotly.com/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
+[![Git](https://img.shields.io/badge/Git-Version%20Control-F05032?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/)
+[![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Naina137/AI---Risk---Manager)
 
 </div>
 
@@ -286,17 +295,43 @@ The prototype does not contain:
 
 ## 🛠️ Technology Stack
 
-| Category | Technology |
-|---|---|
-| Programming | Python |
-| Data Processing | Pandas, NumPy |
-| Machine Learning | Scikit-learn |
-| ML Algorithm | Random Forest Classifier |
-| Visualization | Plotly |
-| Web Application | Streamlit |
-| Model Persistence | Joblib |
-| Version Control | Git & GitHub |
-| Deployment | Streamlit Community Cloud |
+<div align="center">
+
+### 🐍 Programming Language
+
+[![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+
+### 📊 Data Processing & Analysis
+
+[![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
+[![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-013243?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org/)
+
+### 🤖 Machine Learning
+
+[![Scikit-learn](https://img.shields.io/badge/Scikit--learn-Machine%20Learning-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
+
+### 📈 Data Visualization
+
+[![Plotly](https://img.shields.io/badge/Plotly-Interactive%20Visualization-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)](https://plotly.com/)
+
+### 🌐 Web Application
+
+[![Streamlit](https://img.shields.io/badge/Streamlit-Interactive%20Dashboard-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
+
+### 📦 Model Persistence
+
+[![Joblib](https://img.shields.io/badge/Joblib-Model%20Persistence-4B8BBE?style=for-the-badge)](https://joblib.readthedocs.io/)
+
+### 🔧 Version Control & Source Code
+
+[![Git](https://img.shields.io/badge/Git-Version%20Control-F05032?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/)
+[![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Naina137/AI---Risk---Manager)
+
+### ☁️ Deployment
+
+[![Streamlit Cloud](https://img.shields.io/badge/Streamlit%20Cloud-Live%20Deployment-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://ai---risk---manager-cpxhbr4uexjwz9bkdfo3rh.streamlit.app)
+
+</div>
 
 ---
 
@@ -311,6 +346,10 @@ The prototype does not contain:
 | `transactions.csv` | Synthetic transaction dataset |
 | `requirements.txt` | Python dependencies |
 | `README.md` | Project documentation |
+
+### 💻 Source Code
+
+👉 [**View RiskGuard AI Source Code on GitHub**](https://github.com/Naina137/AI---Risk---Manager)
 
 ---
 
@@ -371,23 +410,15 @@ RiskGuard AI is deployed using **Streamlit Community Cloud**.
 ↓  
 **Git Repository**  
 ↓  
-**GitHub**  
+[**GitHub Repository**](https://github.com/Naina137/AI---Risk---Manager)  
 ↓  
 **Streamlit Community Cloud**  
 ↓  
-**Live Risk Dashboard**
+[**Live Risk Dashboard**](https://ai---risk---manager-cpxhbr4uexjwz9bkdfo3rh.streamlit.app)
 
----
+### 🚀 Deployed Application
 
-## 🚀 Live Application
-
-<div align="center">
-
-### 🛡️ Try RiskGuard AI
-
-**[OPEN LIVE APPLICATION](https://ai---risk---manager-cpxhbr4uexjwz9bkdfo3rh.streamlit.app)**
-
-</div>
+[![Open Live App](https://img.shields.io/badge/%F0%9F%9A%80%20OPEN%20LIVE%20APP-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://ai---risk---manager-cpxhbr4uexjwz9bkdfo3rh.streamlit.app)
 
 ---
 
@@ -395,10 +426,10 @@ RiskGuard AI is deployed using **Streamlit Community Cloud**.
 
 | Resource | Link |
 |---|---|
-| 🚀 Live Demo | [RiskGuard AI](https://ai---risk---manager-cpxhbr4uexjwz9bkdfo3rh.streamlit.app) |
-| 💻 Source Code | [GitHub Repository](https://github.com/Naina137/AI---Risk---Manager) |
-| 👩‍💻 LinkedIn | [Naina Kumari](https://www.linkedin.com/in/naina-kumari-06373132b/) |
-| 🐙 GitHub Profile | [Naina137](https://github.com/Naina137) |
+| 🚀 Live Demo | [**RiskGuard AI — Live Application**](https://ai---risk---manager-cpxhbr4uexjwz9bkdfo3rh.streamlit.app) |
+| 💻 Source Code | [**RiskGuard AI — GitHub Repository**](https://github.com/Naina137/AI---Risk---Manager) |
+| 👩‍💻 LinkedIn | [**Naina Kumari — LinkedIn**](https://www.linkedin.com/in/naina-kumari-06373132b/) |
+| 🐙 GitHub Profile | [**Naina137 — GitHub**](https://github.com/Naina137) |
 
 ---
 
@@ -414,9 +445,17 @@ RiskGuard AI is deployed using **Streamlit Community Cloud**.
 
 <br>
 
-[GitHub — Naina137](https://github.com/Naina137)
+[![GitHub](https://img.shields.io/badge/GitHub-Naina137-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Naina137)
 
-[LinkedIn — Naina Kumari](https://www.linkedin.com/in/naina-kumari-06373132b/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Naina%20Kumari-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/naina-kumari-06373132b/)
+
+<br>
+
+### 🔗 Project Resources
+
+[🚀 **Live Demo**](https://ai---risk---manager-cpxhbr4uexjwz9bkdfo3rh.streamlit.app)  
+[💻 **Source Code / GitHub Repository**](https://github.com/Naina137/AI---Risk---Manager)  
+[🔗 **Connect on LinkedIn**](https://www.linkedin.com/in/naina-kumari-06373132b/)
 
 </div>
 
@@ -565,16 +604,17 @@ The current version is a prototype and can be extended with:
 | Project Name | RiskGuard AI |
 | Track | AI Risk Manager |
 | Domain | AI / Machine Learning / FinTech |
-| Primary Language | Python |
+| Primary Language | [Python](https://www.python.org/) |
 | ML Algorithm | Random Forest Classifier |
 | Dataset | Synthetic Transaction Dataset |
 | Records | 3,000 |
-| Interface | Streamlit |
-| Visualization | Plotly |
-| ML Framework | Scikit-learn |
+| Interface | [Streamlit](https://streamlit.io/) |
+| Visualization | [Plotly](https://plotly.com/) |
+| ML Framework | [Scikit-learn](https://scikit-learn.org/) |
+| Data Analysis | [Pandas](https://pandas.pydata.org/) + [NumPy](https://numpy.org/) |
 | Model Storage | Joblib |
-| Deployment | Streamlit Community Cloud |
-| Version Control | GitHub |
+| Deployment | [Streamlit Community Cloud](https://ai---risk---manager-cpxhbr4uexjwz9bkdfo3rh.streamlit.app) |
+| Source Code | [GitHub Repository](https://github.com/Naina137/AI---Risk---Manager) |
 
 ---
 
@@ -589,8 +629,8 @@ The current version is a prototype and can be extended with:
 | Explainability | ✅ Implemented |
 | Analytics Dashboard | ✅ Implemented |
 | Visualization | ✅ Implemented |
-| GitHub Repository | ✅ Available |
-| Cloud Deployment | ✅ Live |
+| GitHub Repository | [✅ Available](https://github.com/Naina137/AI---Risk---Manager) |
+| Cloud Deployment | [✅ Live](https://ai---risk---manager-cpxhbr4uexjwz9bkdfo3rh.streamlit.app) |
 
 ---
 
@@ -624,15 +664,11 @@ Real-world deployment would require:
 
 <br>
 
-[🚀 LIVE DEMO](https://ai---risk---manager-cpxhbr4uexjwz9bkdfo3rh.streamlit.app)
+[![🚀 LIVE DEMO](https://img.shields.io/badge/%F0%9F%9A%80%20LIVE%20DEMO-OPEN%20APP-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://ai---risk---manager-cpxhbr4uexjwz9bkdfo3rh.streamlit.app)
 
-&nbsp; • &nbsp;
+[![💻 GITHUB](https://img.shields.io/badge/%F0%9F%92%BB%20GITHUB-VIEW%20SOURCE-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Naina137/AI---Risk---Manager)
 
-[💻 GITHUB](https://github.com/Naina137/AI---Risk---Manager)
-
-&nbsp; • &nbsp;
-
-[🔗 LINKEDIN](https://www.linkedin.com/in/naina-kumari-06373132b/)
+[![🔗 LINKEDIN](https://img.shields.io/badge/%F0%9F%94%97%20LINKEDIN-CONNECT-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/naina-kumari-06373132b/)
 
 <br><br>
 
