@@ -1,594 +1,608 @@
-🛡️ RiskGuard AI
+<div align="center">
 
-AI-Powered Transaction Risk Detection & Explainable Risk Intelligence Dashboard
+# 🛡️ RiskGuard AI
 
-RiskGuard AI is a machine-learning-powered transaction risk assessment system designed to identify potentially risky financial transactions by analyzing transaction and behavioral signals.
+### AI-Powered Transaction Risk Intelligence & Explainable Risk Detection
 
-The system combines machine learning, behavioral analysis, explainable risk indicators, and interactive data visualization to transform transaction-level signals into an understandable risk assessment.
+**Detect • Analyze • Explain • Decide**
 
----
+[🚀 LIVE DEMO](https://ai---risk---manager-cpxhbr4uexjwz9bkdfo3rh.streamlit.app) • [💻 GITHUB](https://github.com/Naina137/AI---Risk---Manager) • [🔗 LINKEDIN](https://www.linkedin.com/in/naina-kumari-06373132b/)
 
-🚀 Live Demo
+![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=flat-square&logo=python&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-ML-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-Visualization-3F4F75?style=flat-square&logo=plotly&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?style=flat-square&logo=pandas&logoColor=white)
 
-Live Application:
-AI Risk Manager — Streamlit deployment
-
-Source Code:
-Naina137 / AI---Risk---Manager
-
-Developer:
-Naina Kumari
-
-LinkedIn:
-Naina Kumari
+</div>
 
 ---
 
-🎯 Problem Statement
+# 🚀 Live Demo
 
-Digital payment and financial platforms process a large number of transactions every day. Identifying potentially suspicious transactions requires analyzing multiple signals rather than relying only on transaction amount.
+👉 https://ai---risk---manager-cpxhbr4uexjwz9bkdfo3rh.streamlit.app
 
-Some potentially important signals include:
+# 📌 Overview
 
-- Unusually high transaction amounts
-- Unusual transaction times
-- High transaction frequency
-- Multiple device changes
-- Country or location mismatch
-- Repeated failed attempts
-- Unusual account behavior
+RiskGuard AI is an AI-powered transaction risk intelligence prototype designed to identify potentially risky financial transactions using transaction-level and behavioral signals.
 
-A risk-management system should not only identify potentially risky transactions, but should also provide an understandable explanation of why a transaction was flagged.
+The system combines Machine Learning, Behavioral Analysis, Risk Scoring, Explainability, and Interactive Visualization to transform transaction data into an understandable risk assessment.
 
----
+🎯 Buildathon Track: AI Risk Manager
 
-💡 Proposed Solution
+# 🚨 Problem Statement
 
-RiskGuard AI provides an interactive AI-based risk assessment workflow.
+Modern digital payment systems process large numbers of transactions continuously.
 
-The system takes transaction and behavioral information as input and passes the features through a trained Random Forest Classifier.
+Suspicious activity may not always be identified by transaction amount alone. Multiple behavioral signals may indicate increased transaction risk.
 
-The model generates a risk probability which is converted into an easy-to-understand risk assessment:
+Potential risk signals include:
 
-- 🟢 Low Risk
-- 🟠 Medium Risk
-- 🔴 High Risk
+- 💰 Unusual transaction amounts
+- 🕐 Unusual transaction timing
+- 🔄 High transaction frequency
+- 📱 Multiple device changes
+- 🌍 Country mismatch
+- 🔐 Repeated failed attempts
+- 👤 Unusual account behavior
 
-The dashboard then presents the assessment together with the signals that contributed to the risk evaluation.
+The challenge is to analyze these signals together and provide an understandable risk assessment.
 
-Core Flow
+# 💡 Proposed Solution
 
-Transaction & Behavioural Data
-            ↓
-      Data Processing
-            ↓
-     Feature Preparation
-            ↓
-    Random Forest Model
-            ↓
-      Risk Probability
-            ↓
-     Risk Classification
-            ↓
- Explainable Risk Indicators
-            ↓
- Recommended Verification Action
+RiskGuard AI provides an interactive machine-learning-based transaction risk assessment workflow.
 
----
+Transaction Data
+→ Feature Processing
+→ Behavioral Risk Analysis
+→ Random Forest ML Model
+→ Risk Probability
+→ Risk Classification
+→ Explainable Risk Indicators
+→ Interactive Dashboard
 
-✨ Key Features
+The system transforms transaction information into a risk assessment and provides supporting indicators so that the result is easier to understand.
 
-1. 🎯 AI Transaction Risk Scanner
+# 🧠 System Architecture
 
-Users can enter transaction and behavioral information such as:
+┌─────────────────────────────────────────┐
+│            TRANSACTION INPUT            │
+│                                         │
+│ Amount • Time • Account • Device        │
+│ Location • Failed Attempts • Velocity   │
+└────────────────────┬────────────────────┘
+                     │
+                     ▼
+┌─────────────────────────────────────────┐
+│          FEATURE PROCESSING              │
+│                                         │
+│ Transaction & Behavioral Signals        │
+└────────────────────┬────────────────────┘
+                     │
+                     ▼
+┌─────────────────────────────────────────┐
+│          RANDOM FOREST MODEL             │
+│                                         │
+│          Machine Learning Engine        │
+└────────────────────┬────────────────────┘
+                     │
+                     ▼
+┌─────────────────────────────────────────┐
+│            RISK PROBABILITY              │
+└────────────────────┬────────────────────┘
+                     │
+                     ▼
+┌─────────────────────────────────────────┐
+│          RISK CLASSIFICATION             │
+│                                         │
+│     🟢 LOW   🟠 MEDIUM   🔴 HIGH        │
+└────────────────────┬────────────────────┘
+                     │
+                     ▼
+┌─────────────────────────────────────────┐
+│          EXPLAINABLE DASHBOARD           │
+│                                         │
+│ Risk Score • Indicators • Analytics     │
+│ Feature Importance • Insights           │
+└─────────────────────────────────────────┘
+
+# ✨ Key Features
+
+| Feature | Description |
+|---|---|
+| 🎯 Transaction Risk Scanner | Analyze an individual transaction |
+| 🤖 ML Prediction | Random Forest based risk classification |
+| 📊 Risk Score | Probability-based risk assessment |
+| 🔍 Explainability | Human-readable risk indicators |
+| 📈 Interactive Analytics | Explore transaction and behavioral patterns |
+| 🕐 Time Analysis | Analyze transaction behavior by hour |
+| 💰 Amount Analysis | Analyze transaction amount patterns |
+| 🔄 Velocity Analysis | Analyze transaction frequency |
+| 📱 Device Analysis | Analyze device-change behavior |
+| 🌍 Location Analysis | Analyze country mismatch |
+| 🔐 Security Analysis | Analyze failed attempts |
+| 🧠 Feature Importance | Understand important model features |
+| 🌐 Web Dashboard | Interactive Streamlit application |
+| ☁️ Cloud Deployment | Streamlit Community Cloud deployment |
+
+# ⭐ Project Highlights
+
+- 🤖 AI-powered transaction risk assessment
+- 🌲 Random Forest machine-learning model
+- 🎯 Dynamic risk scoring
+- 🔍 Explainable risk indicators
+- 📊 Behavioral risk analysis
+- 📈 Interactive Streamlit dashboard
+- 📊 Plotly-based visual analytics
+- 🧠 Model feature importance
+- 🗃️ Synthetic 3,000-transaction dataset
+- 🕐 Time-based transaction analysis
+- 💰 Transaction amount analysis
+- 🔄 Transaction velocity analysis
+- 📱 Device-change analysis
+- 🌍 Country mismatch analysis
+- 🔐 Failed-attempt analysis
+- ☁️ Streamlit Cloud deployment
+- 💻 GitHub version control
+- 🏗️ Prototype-ready architecture
+
+# 📊 Risk Intelligence
+
+RiskGuard AI analyzes multiple transaction and behavioral signals.
+
+### 💰 Transaction Signals
 
 - Transaction amount
 - Transaction hour
-- Account age
 - Transactions in the last 24 hours
+
+### 👤 Account Signals
+
+- Account age
 - Device changes
-- Country/location mismatch
+
+### 🔐 Security Signals
+
+- Country mismatch
 - Failed attempts
 
-The system then generates an AI-based risk assessment.
+These signals are processed by the machine-learning model to generate the transaction risk assessment.
 
----
+# 🤖 Machine Learning
 
-2. 📊 Dynamic Risk Score
+## Model
 
-The application converts the model's predicted probability into a percentage-based risk score.
+The current prototype uses a Random Forest Classifier.
 
-Example:
+### Model Configuration
 
-Risk Score: 87%
+- Algorithm: Random Forest Classifier
+- Estimators: 150
+- Random State: 42
+- Class Weight: Balanced
+- Train/Test Split: 80/20
 
-Risk Level:
-🔴 HIGH RISK
+### Input Features
 
-The dashboard uses a visual risk gauge to make the result easier to understand.
+- transaction_amount
+- hour
+- account_age_days
+- transactions_last_24h
+- device_changes
+- country_mismatch
+- failed_attempts
 
----
+### Risk Output
 
-3. 🧠 Explainable Risk Indicators
-
-RiskGuard AI does not stop at a prediction.
-
-It provides understandable indicators such as:
-
-- High transaction amount
-- Unusual transaction time
-- High transaction velocity
-- Multiple device changes
-- Country/location mismatch
-- Multiple failed attempts
-
-This helps users understand the factors associated with the model's decision.
-
----
-
-4. 📈 Risk Intelligence Dashboard
-
-The application provides interactive analytics including:
-
-- Overall risk distribution
-- Risk rate by transaction hour
-- Transaction amount distribution
-- Transaction velocity analysis
-- Transaction amount vs. transaction frequency
-- Risk rate vs. device changes
-- Risk rate vs. failed attempts
-
-These visualizations help identify behavioral patterns in the prototype dataset.
-
----
-
-5. 🧠 Model Insights
-
-The dashboard includes model-level insights using feature importance from the trained Random Forest model.
-
-This helps visualize which input features contribute most strongly to the model's learned decision process.
-
----
-
-6. 🏗️ System Architecture
-
-The application provides a dedicated architecture view showing the complete processing pipeline:
-
-┌───────────────────────┐
-│ Transaction Data      │
-└───────────┬───────────┘
-            ↓
-┌───────────────────────┐
-│ Data Processing       │
-└───────────┬───────────┘
-            ↓
-┌───────────────────────┐
-│ Feature Engineering   │
-└───────────┬───────────┘
-            ↓
-┌───────────────────────┐
-│ Random Forest Model   │
-└───────────┬───────────┘
-            ↓
-┌───────────────────────┐
-│ Risk Probability      │
-└───────────┬───────────┘
-            ↓
-┌───────────────────────┐
-│ Explainable Analysis  │
-└───────────┬───────────┘
-            ↓
-┌───────────────────────┐
-│ Recommended Action    │
-└───────────────────────┘
-
----
-
-🤖 Machine Learning
-
-Algorithm
-
-The current prototype uses:
-
-Random Forest Classifier
-
-The model is trained using transaction and behavioral features.
-
-Input Features
-
-Feature| Description
-"transaction_amount"| Value of the transaction
-"hour"| Hour at which the transaction occurred
-"account_age_days"| Age of the account
-"transactions_last_24h"| Number of transactions within 24 hours
-"device_changes"| Number of device changes
-"country_mismatch"| Whether a location/country mismatch exists
-"failed_attempts"| Number of failed attempts
-
-Model Configuration
-
-Algorithm: Random Forest Classifier
-Estimators: 150
-Random State: 42
-Class Weight: Balanced
-Train/Test Split: 80/20
-
----
-
-📊 Dataset
-
-For this prototype, a synthetic transaction dataset containing 3,000 transactions was generated locally.
-
-The dataset was created to demonstrate the complete machine-learning and risk-scoring pipeline without using real customer, payment, or personally identifiable information.
-
-Dataset Features
-
-transaction_amount
-hour
-account_age_days
-transactions_last_24h
-device_changes
-country_mismatch
-failed_attempts
-is_risky
-
-Important Note
-
-«This is a prototype and does not use real Razorpay customer or payment data.»
-
-The synthetic dataset is intended to demonstrate the technical workflow and dashboard functionality.
-
----
-
-🛠️ Technology Stack
-
-Programming Language
-
-- Python
-
-Data Processing
-
-- Pandas
-- NumPy
-
-Machine Learning
-
-- Scikit-learn
-- Random Forest Classifier
-
-Dashboard & Visualization
-
-- Streamlit
-- Plotly
-
-Model Persistence
-
-- Joblib
-
-Development & Version Control
-
-- Git
-- GitHub
-
-Deployment
-
-- Streamlit Community Cloud
-
----
-
-📁 Project Structure
-
-AI---Risk---Manager/
-│
-├── app.py
-│       └── Main Streamlit dashboard
-│
-├── generate_data.py
-│       └── Synthetic transaction dataset generator
-│
-├── train.py
-│       └── Machine learning training pipeline
-│
-├── transactions.csv
-│       └── Generated transaction dataset
-│
-├── risk_model.pkl
-│       └── Trained Random Forest model
-│
-├── requirements.txt
-│       └── Python dependencies
-│
-└── README.md
-        └── Project documentation
-
----
-
-⚙️ How It Works
-
-Step 1 — Generate Dataset
-
-The project first generates synthetic transaction records containing transaction and behavioral signals.
-
-python generate_data.py
-
-This creates:
-
-transactions.csv
-
----
-
-Step 2 — Train the Model
-
-The generated dataset is loaded and divided into training and testing sets.
-
-python train.py
-
-The Random Forest model is trained and saved as:
-
-risk_model.pkl
-
----
-
-Step 3 — Launch the Dashboard
-
-Install the required dependencies:
-
-pip install -r requirements.txt
-
-Then launch the application:
-
-streamlit run app.py
-
-The Streamlit dashboard opens locally and provides the complete risk-analysis interface.
-
----
-
-🖥️ Dashboard Modules
-
-🎯 Risk Scanner
-
-Real-time interactive transaction risk assessment.
-
-📊 Intelligence Center
-
-Visual analytics for transaction and behavioral patterns.
-
-🧠 Model Insights
-
-Feature importance and machine-learning model information.
-
-🏗️ System Design
-
-End-to-end architecture and future evolution of the solution.
-
----
-
-🔐 Risk Decision Logic
-
-The prototype maps model probability into three operational categories:
-
-0% – 39%
 🟢 LOW RISK
 
-40% – 69%
 🟠 MEDIUM RISK
 
-70% – 100%
 🔴 HIGH RISK
 
-The classification is intended for demonstration and prototype decision-support purposes.
+# 🔍 Explainable Risk Assessment
 
----
+A risk-management system should not only answer:
 
-📌 Example Risk Scenario
-
-A transaction with signals such as:
-
-Transaction Amount: ₹50,000
-Transaction Hour: 02:00
-Account Age: 30 days
-Transactions / 24h: 25
-Device Changes: 3
-Country Mismatch: Yes
-Failed Attempts: 4
-
-can trigger multiple risk indicators.
-
-The dashboard then presents:
-
-🔴 HIGH RISK
-
-Risk Score: [Model Generated Score]
-
-Potential Indicators:
-• High transaction amount
-• Unusual transaction time
-• High transaction velocity
-• Multiple device changes
-• Location mismatch
-• Multiple failed attempts
-
-The score is generated by the trained model and is not manually assigned.
-
----
-
-📈 Why Explainability Matters
-
-A risk model should not only answer:
-
-«"Is this transaction risky?"»
+"Is this transaction risky?"
 
 It should also help answer:
 
-«"What signals contributed to this assessment?"»
+"Which signals are associated with this assessment?"
 
-RiskGuard AI therefore combines the machine-learning prediction with human-readable risk indicators.
+RiskGuard AI presents human-readable indicators such as:
 
-This creates a more transparent decision-support workflow.
+- 💰 High transaction amount
+- 🕐 Unusual transaction timing
+- 🔄 High transaction velocity
+- 📱 Multiple device changes
+- 🌍 Country mismatch
+- 🔐 Multiple failed attempts
 
----
+This creates a more understandable and transparent decision-support workflow.
 
-🚀 Future Scope
+# 📈 Analytics Dashboard
 
-The current system is a prototype. Future versions can evolve into a production-oriented risk intelligence platform.
+The dashboard provides interactive visual analysis for exploring transaction behavior.
 
-Planned Improvements
+Analytics include:
 
-- Real-time transaction stream processing
-- Advanced anomaly detection
-- Fraud-specific classification models
-- Adaptive risk thresholds
-- Real-time alert generation
-- Human-in-the-loop transaction review
-- Device fingerprint intelligence
-- Behavioral profiling
-- Graph-based transaction relationship analysis
-- Model drift monitoring
-- Continuous model retraining
-- Production payment infrastructure integration
-- API-based risk scoring
-- Explainable AI using advanced interpretability techniques
+- 📊 Risk distribution
+- 🕐 Risk by transaction hour
+- 💰 Transaction amount distribution
+- 🔄 Transaction velocity
+- 📱 Risk vs. device changes
+- 🔐 Risk vs. failed attempts
+- 🌍 Country mismatch analysis
+- 📈 Transaction amount patterns
+- 🧠 Model feature importance
 
----
+# 🗃️ Dataset
 
-🧪 Current Prototype Limitations
+The prototype uses a synthetic dataset containing 3,000 transaction records.
 
-The current version intentionally uses synthetic data.
+The dataset was generated specifically for demonstrating the machine-learning risk assessment workflow without using real customer payment information.
 
-Therefore, the model's performance should not be interpreted as real-world fraud-detection performance.
+### Dataset Fields
 
-For a production system, the model would require:
+- transaction_amount
+- hour
+- account_age_days
+- transactions_last_24h
+- device_changes
+- country_mismatch
+- failed_attempts
+- is_risky
 
-- Realistic and representative transaction data
-- Proper fraud labels
-- Strong class-imbalance handling
-- Cross-validation
-- Precision/Recall analysis
-- F1-score
-- ROC-AUC / PR-AUC
-- False-positive monitoring
-- Model drift detection
-- Security and privacy controls
-- Continuous validation
+### 🔐 Privacy
 
----
+No real customer payment information is used.
 
-🔒 Security & Privacy
+The prototype does not contain:
 
-RiskGuard AI does not use real customer payment information in this prototype.
-
-The dataset is synthetic and generated specifically for demonstration.
-
-No:
-
-- Customer credentials
-- Payment credentials
 - Card numbers
-- Bank information
-- Personal financial records
+- Bank account information
+- Payment credentials
+- Real customer financial records
+- Real customer payment data
 
-are used by the prototype.
+# 🛠️ Technology Stack
 
----
+| Category | Technology |
+|---|---|
+| Programming | Python |
+| Data Processing | Pandas, NumPy |
+| Machine Learning | Scikit-learn |
+| ML Algorithm | Random Forest Classifier |
+| Visualization | Plotly |
+| Web Application | Streamlit |
+| Model Persistence | Joblib |
+| Version Control | Git & GitHub |
+| Deployment | Streamlit Community Cloud |
 
-💻 Local Setup
+# 📁 Project Structure
 
-Clone the repository
+AI---Risk---Manager/
 
-git clone <repository-url>
+├── app.py
+├── generate_data.py
+├── train.py
+├── risk_model.pkl
+├── transactions.csv
+├── requirements.txt
+└── README.md
+
+### File Description
+
+- app.py — Main Streamlit application
+- generate_data.py — Synthetic transaction data generation
+- train.py — Machine-learning training pipeline
+- risk_model.pkl — Trained Random Forest model
+- transactions.csv — Synthetic transaction dataset
+- requirements.txt — Python dependencies
+- README.md — Project documentation
+
+# ⚙️ Installation & Setup
+
+### 1. Clone Repository
+
+git clone https://github.com/Naina137/AI---Risk---Manager.git
+
 cd AI---Risk---Manager
 
-Create a virtual environment
+### 2. Create Virtual Environment
 
 Windows:
 
 python -m venv venv
+
 venv\Scripts\activate
 
 Linux/macOS:
 
 python3 -m venv venv
+
 source venv/bin/activate
 
-Install dependencies
+### 3. Install Dependencies
 
 pip install -r requirements.txt
 
-Generate dataset
+### 4. Generate Dataset
 
 python generate_data.py
 
-Train model
+### 5. Train Model
 
 python train.py
 
-Run application
+This generates the trained model:
+
+risk_model.pkl
+
+### 6. Run Application
 
 streamlit run app.py
 
----
+The application will open at:
 
-🌐 Deployment
+http://localhost:8501
 
-The application is deployed using Streamlit Community Cloud.
+# ☁️ Deployment
 
-The GitHub repository contains the application source code, model artifact, generated prototype dataset, and dependency configuration required for deployment.
+RiskGuard AI is deployed using Streamlit Community Cloud.
 
----
+Deployment Flow:
 
-🎯 Buildathon Track
+Local Development
+→ Python Application
+→ Git Repository
+→ GitHub
+→ Streamlit Community Cloud
+→ Live Risk Dashboard
 
-Track 2 — AI Risk Manager
+# 🔗 Important Links
 
-RiskGuard AI focuses on using machine learning and behavioral transaction analysis to support automated risk identification and explainable decision-making.
+🚀 Live Demo:
+https://ai---risk---manager-cpxhbr4uexjwz9bkdfo3rh.streamlit.app
 
----
+💻 GitHub Repository:
+https://github.com/Naina137/AI---Risk---Manager
 
-👩‍💻 Developer
+👩‍💻 LinkedIn:
+https://www.linkedin.com/in/naina-kumari-06373132b/
 
-Naina Kumari
+🐙 GitHub Profile:
+https://github.com/Naina137
+
+# 👩‍💻 Developer
+
+## Naina Kumari
 
 Computer Science & Engineering — Data Science
 
-Interested in:
+Interests:
 
-- Data Science
-- Machine Learning
-- Artificial Intelligence
-- Data Analytics
-- Full-Stack Development
-- Cybersecurity
+Data Science • Machine Learning • Artificial Intelligence • Data Analytics • Cybersecurity • Software Development
 
-Connect
+GitHub:
+https://github.com/Naina137
 
-- GitHub: Naina137
-- LinkedIn: Naina Kumari
+LinkedIn:
+https://www.linkedin.com/in/naina-kumari-06373132b/
+
+# 🏆 Buildathon Context
+
+### 🎯 Track: AI Risk Manager
+
+RiskGuard AI was developed as a prototype for an AI Risk Manager challenge.
+
+The project demonstrates how machine learning and behavioral transaction signals can be combined to create an intelligent risk-assessment layer between transaction data and operational decision-making.
+
+### Core Concept
+
+Transaction Data
++
+Behavioral Signals
++
+Machine Learning
++
+Risk Scoring
++
+Explainability
++
+Interactive Analytics
+↓
+AI Risk Intelligence
+
+# 🧪 Technical Challenges
+
+### 1. Feature Design
+
+Selecting transaction and behavioral features that can represent meaningful risk signals.
+
+### 2. Synthetic Data Generation
+
+Creating a structured dataset for experimentation without using real financial information.
+
+### 3. Machine Learning Pipeline
+
+Data Generation
+→ Data Processing
+→ Feature Selection
+→ Model Training
+→ Model Persistence
+→ Risk Prediction
+
+### 4. Explainability
+
+Converting model predictions and behavioral signals into understandable risk indicators.
+
+### 5. Interactive Visualization
+
+Combining risk prediction, metrics, charts, and insights into a single dashboard.
+
+### 6. Deployment
+
+Deploying the application as an accessible web application through Streamlit Community Cloud.
+
+# 🏅 Complete Project Workflow
+
+USER / TRANSACTION
+        ↓
+INPUT SIGNALS
+        ↓
+DATA PROCESSING
+        ↓
+ML ENGINE
+        ↓
+RANDOM FOREST
+        ↓
+RISK SCORE
+        ↓
+LOW / MEDIUM / HIGH
+        ↓
+EXPLANATION
+        ↓
+INTERACTIVE DASHBOARD
+
+# 🎯 Why RiskGuard AI?
+
+RiskGuard AI focuses on three core principles:
+
+### 🔴 DETECT
+
+Identify potentially risky transaction patterns.
+
+### 🔵 ANALYZE
+
+Understand transaction and behavioral signals.
+
+### 🟢 EXPLAIN
+
+Present understandable indicators behind the assessment.
+
+DETECT
+↓
+ANALYZE
+↓
+EXPLAIN
+↓
+DECISION SUPPORT
+
+# 🔮 Future Scope
+
+The current version is a prototype and can be extended with:
+
+### 🤖 Advanced AI
+
+- Advanced anomaly detection
+- Fraud-specific classification
+- Ensemble learning
+- Adaptive risk thresholds
+- Advanced Explainable AI
+
+### ⚡ Real-Time Processing
+
+- Real-time transaction streams
+- Instant risk scoring
+- Real-time alerts
+- Event-driven processing
+
+### 🔐 Security Intelligence
+
+- Device fingerprinting
+- Behavioral profiling
+- Account takeover detection
+- Suspicious login analysis
+
+### 🧠 Advanced Analytics
+
+- Graph-based transaction analysis
+- Network-based fraud detection
+- Customer behavior profiling
+- Model drift monitoring
+- Continuous model retraining
+
+### 🏗️ Production Capabilities
+
+- REST API-based risk scoring
+- Database integration
+- Authentication and authorization
+- Monitoring and logging
+- Human-in-the-loop review
+- Production-grade security and privacy controls
+
+# 📌 Project Information
+
+| Category | Details |
+|---|---|
+| Project Name | RiskGuard AI |
+| Track | AI Risk Manager |
+| Domain | AI / Machine Learning / FinTech |
+| Primary Language | Python |
+| ML Algorithm | Random Forest Classifier |
+| Dataset | Synthetic Transaction Dataset |
+| Records | 3,000 |
+| Interface | Streamlit |
+| Visualization | Plotly |
+| ML Framework | Scikit-learn |
+| Model Storage | Joblib |
+| Deployment | Streamlit Community Cloud |
+| Version Control | GitHub |
+
+# 📊 Project Status
+
+| Component | Status |
+|---|---|
+| Dataset Generation | ✅ Completed |
+| ML Model | ✅ Implemented |
+| Risk Prediction | ✅ Implemented |
+| Risk Scoring | ✅ Implemented |
+| Explainability | ✅ Implemented |
+| Analytics Dashboard | ✅ Implemented |
+| Visualization | ✅ Implemented |
+| GitHub Repository | ✅ Available |
+| Cloud Deployment | ✅ Live |
+
+# ⚠️ Disclaimer
+
+RiskGuard AI is an educational and buildathon prototype.
+
+It is not a production fraud-detection system or financial decision-making system.
+
+Real-world deployment would require:
+
+- Representative production datasets
+- Extensive model validation
+- Security testing
+- Privacy controls
+- Regulatory compliance
+- Bias and fairness evaluation
+- Continuous monitoring
+- Model-performance evaluation
+- Human oversight
 
 ---
 
-⭐ Project Highlights
+<div align="center">
 
-✓ AI-powered transaction risk assessment
-✓ Random Forest machine-learning model
-✓ Explainable risk indicators
-✓ Dynamic risk scoring
-✓ Interactive Streamlit dashboard
-✓ Plotly visual analytics
-✓ Behavioural risk analysis
-✓ Model feature importance
-✓ Synthetic 3,000-transaction dataset
-✓ GitHub version control
-✓ Streamlit Cloud deployment
-✓ Prototype-ready architecture
+# 🛡️ RiskGuard AI
 
----
+### Intelligent • Explainable • Data-Driven Risk Assessment
 
-⚠️ Disclaimer
+**Detect • Analyze • Explain • Decide**
 
-RiskGuard AI is an educational and buildathon prototype created to demonstrate an AI-based transaction risk-management workflow.
+<br>
 
-It is not a production fraud-detection system and should not be used to make real financial decisions without proper validation, security review, regulatory compliance, and production-grade data and infrastructure.
+🚀 [LIVE DEMO](https://ai---risk---manager-cpxhbr4uexjwz9bkdfo3rh.streamlit.app)
 
----
+💻 [GITHUB](https://github.com/Naina137/AI---Risk---Manager)
 
-⭐ If you found this project interesting, consider giving the repository a star!
+🔗 [LINKEDIN](https://www.linkedin.com/in/naina-kumari-06373132b/)
+
+<br>
+
+⭐ **If you found this project interesting, consider starring the repository!**
+
+</div>
