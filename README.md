@@ -424,12 +424,17 @@ RiskGuard AI is deployed using **Streamlit Community Cloud**.
 
 ## 🔗 Important Links
 
-| Resource | Link |
-|---|---|
-| 🚀 Live Demo | [**RiskGuard AI — Live Application**](https://ai---risk---manager-cpxhbr4uexjwz9bkdfo3rh.streamlit.app) |
-| 💻 Source Code | [**RiskGuard AI — GitHub Repository**](https://github.com/Naina137/AI---Risk---Manager) |
-| 👩‍💻 LinkedIn | [**Naina Kumari — LinkedIn**](https://www.linkedin.com/in/naina-kumari-06373132b/) |
-| 🐙 GitHub Profile | [**Naina137 — GitHub**](https://github.com/Naina137) |
+**🚀 Live Demo:**  
+https://ai---risk---manager-cpxhbr4uexjwz9bkdfo3rh.streamlit.app
+
+**💻 GitHub Source Code:**  
+https://github.com/Naina137/AI---Risk---Manager
+
+**🔗 LinkedIn:**  
+https://www.linkedin.com/in/naina-kumari-06373132b/
+
+**🐙 GitHub Profile:**  
+https://github.com/Naina137
 
 ---
 
