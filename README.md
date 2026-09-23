@@ -458,13 +458,19 @@ https://github.com/Naina137
 
 ### 🔗 Project Resources
 
-[🚀 **Live Demo**](https://ai---risk---manager-cpxhbr4uexjwz9bkdfo3rh.streamlit.app)  
-[💻 **Source Code / GitHub Repository**](https://github.com/Naina137/AI---Risk---Manager)  
-[🔗 **Connect on LinkedIn**](https://www.linkedin.com/in/naina-kumari-06373132b/)
+## 🔗 Important Links
 
-</div>
+**🚀 Live Demo:**  
+https://ai---risk---manager-cpxhbr4uexjwz9bkdfo3rh.streamlit.app
 
----
+**💻 GitHub Source Code:**  
+https://github.com/Naina137/AI---Risk---Manager
+
+**🔗 LinkedIn:**  
+https://www.linkedin.com/in/naina-kumari-06373132b/
+
+**🐙 GitHub Profile:**  
+https://github.com/Naina137
 
 ## 🏆 Buildathon Context
 
